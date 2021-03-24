@@ -4,3 +4,5 @@ os: osx
 xcode_project: Numero.xcodeproj
 xcode_scheme: Numero
 xcode_destination: platform=iOS Simulator,name=iPhone 11
+script:
+- fastlane scan
